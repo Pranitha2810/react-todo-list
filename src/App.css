@@ -1,14 +1,28 @@
 .App{
+    font-style: italic;
+}
+#header{
+    text-align: center;
+}
+.cryptoList{
     display: flex;
     flex-direction: column;
+    height: auto;
+    width:100%;
     justify-content: center;
     align-items: center;
-    height:100vh;
-    gap: 8px;
+
 }
-.task{
-    border: 1px solid black;
+.cryptoList div{
     width: 300px;
-    height: 100px;
-    margin-top: 10px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#coin div:hover{
+    cursor: pointer;
 }
